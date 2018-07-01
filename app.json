@@ -1,0 +1,29 @@
+{
+    "name": "pREST",
+    "description": "pREST is a way to serve a RESTful API from any databases written in Go",
+    "website": "http://postgres.rest",
+    "repository": "https://github.com/prest/prest",
+    "logo": "https://postgres.rest/logo.png",
+    "success_url": "/",
+    "keywords": [
+	"postgres",
+	"database",
+	"golang",
+	"rest",
+	"restful"
+	"api"
+    ],
+    "addons": [
+	"heroku-postgresql:hobby-dev"
+    ],
+    "env": {
+	"PREST_JWT_KEY": {
+	    "description": "JWT key.",
+	    "value": ""
+	},
+	"PREST_DEBUG": {
+	    "description": "Active debug mode.",
+	    "value": "true"
+	}
+    }
+}
